@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<blockMap>
+    <blockMapId>1</blockMapId>
+    <block>
+        <blockCoords>
+            <x>0</x>
+            <y>0</y>
+        </blockCoords>
+        <tileSetCoords>
+            <x>0</x>
+            <y>0</y>
+        </tileSetCoords>
+        <blockType>Solid</blockType>
+        <blockProperties>
+            <collisionType>FullSolid</collisionType>
+            <solidSides>
+                <FullSolid/>
+                <topSideSolid/>
+                <rightSideSolid/>
+                <bottomSideSolid/>
+                <leftSideSolid/>
+            </solidSides>
+            <visible/>
+            <breakable/>
+            <secondaryTexture>
+                <tileSetCoords>
+                    <x/>
+                    <y/>
+                </tileSetCoords>
+            </secondaryTexture>
+            <door>
+                <doorId/>
+                <lockedBy/>
+            </door>
+        </blockProperties>
+    </block>
+
+    <blockHorizontalLine>
+        <blockLineLenght>20</blockLineLenght>
+        <firstBlockCoords>
+            <x>0</x>
+            <y>0</y>
+        </firstBlockCoords>
+
+        <tileSetCoords>
+            <all/>
+            <usePattern/>
+            <x>0</x>
+            <y>0</y>
+        </tileSetCoords>
+
+        <blockType>Solid</blockType>
+        <blockProperties>
+            <collisionType>FullSolid</collisionType>
+        </blockProperties>
+    </blockHorizontalLine>
+
+    <blockShape>
+        <blockShapeWidth>5</blockShapeWidth>
+        <blockShapeHeight>2</blockShapeHeight>
+
+        <firstBlockCoords>
+            <x>0</x>
+            <y>0</y>
+        </firstBlockCoords>
+
+        <tileSetCoords>
+            <all/>
+            <usePattern/>
+            <x>0</x>
+            <y>0</y>
+        </tileSetCoords>
+
+    </blockShape>
+</blockMap>

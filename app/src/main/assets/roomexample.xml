@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<example>
+
+<room>
+    <roomID id="1"/>
+    <roomName name="test"/>
+    <globalCoords x="1" y="1"/>
+    <background name="gamescreenexamplehalf"/>
+    <blockMapId id="1"/>
+    <tileSet name="blocksheetexample"/>
+    <dimensions type="preset" preset="simple" />
+    <!--  <dimensions type="inBlocks" width="20" height="10" />  -->
+    <!--  <dimensions type="inScreens" width="1" height="1" />  -->
+    <doors>
+        <door>
+            <doorId/>
+            <playerAppearCoords>
+                <x/>
+                <y/>
+            </playerAppearCoords>
+            <connectsToDoorId/>
+            <inMapId/>
+            <doorPassingAnimation/>
+        </door>
+    </doors>
+</room>
+
+</example>
